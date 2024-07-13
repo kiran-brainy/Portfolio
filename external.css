@@ -9,17 +9,27 @@ nav #nav-bar #navbarSupportedContent ul li a{
     font-weight: 470;
 }
 .c1{
-    /* height: 70vh; */
     margin-top: 40px;
+    background-color: #067adf;
 }
 .c2{
+   padding-top: 70px;
    height: 70vh;
+   color:#067adf;
+   border: 3px solid green;
+
+
+}
+.cr-1{
+    color:#067adf;
+    background-color: transparent;
 }
 .c3{
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    border: 5px solid cyan;
 }
 #imag{
     height: 60vh;
@@ -29,4 +39,39 @@ nav #nav-bar #navbarSupportedContent ul li a{
 .n-3{
     text-align: justify;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:800px){
+    .c2{
+        padding-top: 40px;
+        border: 3px solid green;
+    }
+    #imag{
+        margin-left: 50px;
+    }
+   
+}
+@media (max-width:750px) and (min-width:100px){
+    .c2{
+        padding-top:40px;
+        border: 3px solid green;
+    }
+    #imag{
+        margin-left: 50px;
+    }
+    .h1{
+        font-size: 40px;
+        display: inline-block;
 
+    }
+    #imag{
+        height: 20vh;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   
+}
