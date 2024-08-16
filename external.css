@@ -9,17 +9,17 @@
 }
 
 nav #nav-bar #navbarSupportedContent ul li a{
-    color: 	#067adf;
+    color:#067adf;
     font-size: larger;
     font-weight: 470;
 }
 
 .c1{
     margin-top: 50px;
-
 }
 .c2{
     color:#067adf;
+    /* color: rgb(0, 195, 255); */
     padding-top: 50px;
 }
 .l1{
@@ -36,8 +36,12 @@ nav #nav-bar #navbarSupportedContent ul li a{
     padding-left: 30px;
     font-weight: 450;
 }
-.c3{
+.l4{
+    padding-left: 30px;
+    font-size: 1.1rem;    
 }
+/* .c3{
+} */
  @media (max-width:786px)  {
 
     .l2{
@@ -45,7 +49,8 @@ nav #nav-bar #navbarSupportedContent ul li a{
         font-size: 2.2rem;
     }
     .c2{
-        padding-top: 15px;
+        padding-top: 25px;
+        line-height: 34px;
     }
     .l1{
         padding-left:10px;
@@ -54,7 +59,11 @@ nav #nav-bar #navbarSupportedContent ul li a{
     .l3{
         padding-left: 10px;
         font-size: 1.8rem;
-
+    }
+    .l4{
+        padding-left: 10px;
+        font-size: 0.9rem;
+        line-height:18px ;
     }
  }
 
@@ -66,6 +75,7 @@ nav #nav-bar #navbarSupportedContent ul li a{
     }
     .c2{
         padding-top: 15px;
+        line-height: 30px;
     }
     .l1{
         padding-left:10px;
@@ -75,6 +85,11 @@ nav #nav-bar #navbarSupportedContent ul li a{
         font-size: 1.6rem;
 
     }
+    .l4{
+        padding-left: 10px;
+        font-size: 0.8rem;
+        line-height: 17px;
+    }
  }
  @media (max-width:498px)  {
 
@@ -83,7 +98,8 @@ nav #nav-bar #navbarSupportedContent ul li a{
         font-size: 1.3rem;
     }
     .c2{
-        padding-top: 15px;
+        padding-top: 20px;
+        line-height: 25px;
     }
     .l1{
         padding-left:5px;
@@ -93,6 +109,11 @@ nav #nav-bar #navbarSupportedContent ul li a{
         padding-left: 5px;
         font-size: 1.1rem;
     }
+    .l4{
+        padding-left: 5px;
+        font-size: 0.45rem;
+        line-height: 10px;
+    }
  }
 
  @media (max-width:338px)  {
@@ -100,20 +121,24 @@ nav #nav-bar #navbarSupportedContent ul li a{
     .l2{
         padding-left:2.5px;
         font-size: 1rem;
-        line-height: 18px;
     }
     .c2{
         padding-top: 10px;
+        line-height: 18px;
     }
     .l1{
         padding-left:2.5px;
         font-size: 0.8rem;
-        line-height: 18px;
     } 
     .l3{
         padding-left: 2.5px;
         font-size: 0.9rem;
-        line-height: 18px;
 
     }
+    .l4{
+        padding-left: 5px;
+        font-size: 0.36rem;
+        line-height: 10px;
+    }
  }
+
