@@ -178,3 +178,29 @@ nav #nav-bar #navbarSupportedContent ul li a{
     }
  }
 
+ @media (max-width:300px)
+ {
+    .l2{
+        padding-left:2.5px;
+        font-size: 1rem;
+    }
+    .c2{
+        padding-top: 10px;
+        line-height: 18px;
+    }
+    .l1{
+        padding-left:2.5px;
+        font-size: 0.8rem;
+    } 
+    .l3{
+        padding-left: 2.5px;
+        font-size: 0.9rem;
+
+    }
+    .l4{
+        padding-left: 5px;
+        font-size: 0.44rem;
+        line-height: 9px;
+    }
+ }
+
