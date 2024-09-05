@@ -284,6 +284,7 @@ nav #nav-bar #navbarSupportedContent ul li a{
 
     }
     .l4{
+        padding-top: 10px;
         padding-left: 5px;
         font-size: 0.44rem;
         line-height: 10px;
@@ -297,13 +298,34 @@ nav #nav-bar #navbarSupportedContent ul li a{
         line-height: 18px;
     }
     .icon{
-        margin-top:0px;
+        margin-top:5px;
         padding-left:6px;
         display:flex;
         gap:18px;
         font-size:0.8rem;
-        padding-bottom: 10px;
     } 
+ }
+ @media (max-width:317px)
+ {
+    .icon{
+        margin-top:-1px;
+        padding-left:6px;
+        display:flex;
+        gap:18px;
+        font:0.5rem;
+        margin-bottom: 10px;
+    }
+ }
+ @media (max-width:310px)
+ {
+    .icon{
+        margin-top:-5px;
+        padding-left:6px;
+        display:flex;
+        gap:18px;
+        font:0.5rem;
+        margin-bottom: 10px;
+    }
  }
  @media (max-width:300px)
  {
@@ -312,8 +334,8 @@ nav #nav-bar #navbarSupportedContent ul li a{
         font-size: 1rem;
     }
     .c2{
-        padding-top: 2px;
-        line-height: 1px;
+        padding-top: 10px;
+        line-height:20px;
     }
     .l1{
         padding-left:2.5px;
@@ -327,13 +349,15 @@ nav #nav-bar #navbarSupportedContent ul li a{
     .l4{
         padding-left: 5px;
         font-size: 0.42rem;
-        line-height: 8px;
+        line-height:8px;
     }
     .icon{
+        margin-top:-7px;
         padding-left:6px;
         display:flex;
         gap:18px;
-        font: size 0.5rem;
+        font-size:0.5rem;
+        margin-bottom: 10px;
     }
  }
  
