@@ -361,6 +361,11 @@ nav #nav-bar #navbarSupportedContent ul li a{
     }
  }
  
+ a{
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+ }
 
 
 
