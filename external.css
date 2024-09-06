@@ -54,10 +54,14 @@ nav #nav-bar #navbarSupportedContent ul li a{
     font-size: 1.1rem;    
 }
 .c3{
-    display: flex; 
-    justify-content: flex-end;
-    flex-direction:row; 
+  display: flex;  
 }
+
+.c3 img{
+    position: relative;
+    left: 11px;
+}
+
 
 @media (max-width:1199px)
 {
