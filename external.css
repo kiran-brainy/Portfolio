@@ -374,6 +374,21 @@ nav #nav-bar #navbarSupportedContent ul li a{
     display: inline-block;
  }
 
+/* #trip{
+    border: white 1px solid;
+    padding: 2px;
+} */
+
+
+
+a i:hover{
+
+    box-shadow:2px 2px 20px 30px #067adf;
+    background-color: #067adf;
+    color:black
+
+}
+
 
 
 
