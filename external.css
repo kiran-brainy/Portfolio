@@ -35,14 +35,18 @@ nav #nav-bar #navbarSupportedContent ul li a{
     margin-top: 50px;
     padding-right:auto;
     margin-left: auto;
+    box-shadow:1px 1px 5px 5px #067adf;
+
 }
 .c2{
     color:#067adf;
     padding-top: 50px;
+
 }
 .l1{
     font-size: 2rem;
     padding-left: 30px;
+
 }
 .l2{
     font-size: 2.5em;
@@ -67,6 +71,19 @@ nav #nav-bar #navbarSupportedContent ul li a{
     left: 11px;
 }
 
+a i:hover{
+
+    box-shadow:2px 2px 20px 30px #067adf;
+    background-color: #067adf;
+    color:black
+
+}
+
+a{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+ }
 
 @media (max-width:1199px)
 {
@@ -78,13 +95,20 @@ nav #nav-bar #navbarSupportedContent ul li a{
         gap:40px;
         font-size:2.5rem;
     }
+    a i:hover{
+
+        box-shadow:2px 2px 10px 10px #067adf;
+        background-color: #067adf;
+        color:black
+    
+    }
 }
 
  @media (max-width:991px)
 {
     .icon
     {
-        margin-top:10px ;
+        margin-top:-10px ;
         padding-left: 31px;
         display:flex; 
         gap:40px;
@@ -397,11 +421,7 @@ nav #nav-bar #navbarSupportedContent ul li a{
     }
  }
  
- a{
-    padding: 0px;
-    margin: 0px;
-    display: inline-block;
- }
+ 
 
 /* #trip{
     border: white 1px solid;
@@ -410,13 +430,7 @@ nav #nav-bar #navbarSupportedContent ul li a{
 
 
 
-a i:hover{
 
-    box-shadow:2px 2px 20px 30px #067adf;
-    background-color: #067adf;
-    color:black
-
-}
 
 
 
