@@ -250,7 +250,36 @@ nav #nav-bar #navbarSupportedContent ul li a{
 
 }
 
- @media (max-width:355px) and (min-width:339px){
+@media (max-width:358px) {
+    .l2{
+        padding-left:2.5px;
+        font-size: 1rem;
+    }
+    .c2{
+        padding-top: 20px;
+        line-height: 18px;
+    }
+    .l1{
+        padding-left:2.5px;
+        font-size: 0.8rem;
+    } 
+    .l3{
+        padding-left: 2.5px;
+        font-size: 0.9rem;
+
+    }
+    .l4{
+        padding-top: 3px;
+        padding-left:2.5px;
+        font-size: 0.44rem;
+        line-height: 10px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+ }
+
+ @media (max-width:355px) {
     .l2{
         padding-left:2.5px;
         font-size: 1rem;
@@ -277,7 +306,6 @@ nav #nav-bar #navbarSupportedContent ul li a{
     .icon{
         padding-top: 2px;
     }
-
  }
  @media (max-width:338px)  {
 
@@ -306,7 +334,7 @@ nav #nav-bar #navbarSupportedContent ul li a{
     }
  }
 
- @media (max-width:317px)
+ @media (max-width:322px)
  {
     .c2{
         padding-top: 7px;
