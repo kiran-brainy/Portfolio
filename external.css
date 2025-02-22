@@ -36,8 +36,8 @@ nav #nav-bar #navbarSupportedContent ul li a{
     padding-right:auto;
     margin-left: auto;
     box-shadow:1px 1px 5px 5px #067adf;
-
 }
+
 .c2{
     color:#067adf;
     padding-top: 50px;
@@ -76,7 +76,6 @@ a i:hover{
     box-shadow:2px 2px 20px 30px #067adf;
     background-color: #067adf;
     color:black
-
 }
 
 a{
@@ -162,6 +161,53 @@ a{
         font-size:1.5rem;
     }
 }
+
+@media(max-width:586px){
+    .c1,.row{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .c2{
+        order: 10;
+        margin: auto;
+        align-self: center;
+    }
+    .c3{
+        order:5;
+    }
+   }
+
+   @media (max-width:575px)
+   {
+       .c2{
+           padding-top:15px ;
+       }
+       .icon{
+           margin-top:-9px;
+           padding-left:6px;
+           display:flex;
+           gap:18px;
+           font-size:1rem;
+       } 
+       .c3{
+          
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           flex-wrap: wrap;
+           flex-direction: row;       
+       }
+       .c3 img{
+           margin:0px;
+           padding: 0px;
+           left: 0px;
+       }
+   
+   }
+
  @media (max-width:539px)  {
 
     .l2{
@@ -249,21 +295,6 @@ a{
 
 @media (max-width:390px)
 {
-    .icon{
-        margin-top:-9px;
-        padding-left:6px;
-        display:flex;
-        gap:18px;
-        font-size:1rem;
-    } 
-
-}
-
-@media (max-width:365px)
-{
-    .c2{
-        padding-top:15px ;
-    }
     .icon{
         margin-top:-9px;
         padding-left:6px;
@@ -421,7 +452,7 @@ a{
     }
  }
  
- 
+
 
 /* #trip{
     border: white 1px solid;
