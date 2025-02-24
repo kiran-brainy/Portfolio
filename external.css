@@ -161,15 +161,25 @@ a{
         font-size:1.5rem;
     }
 
+    .c1{
+    box-shadow:1px 1px 5px 5px transparent;
+    }
+
     .c3{
         order:-1;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
     }
 
     .c3 img{
         position: relative;
         left:0px;
+        height: 20rem;
+        width:20rem;
     }
-
+    
 }
 
 @media(max-width:575px){
