@@ -41,8 +41,12 @@ nav #nav-bar #navbarSupportedContent ul li a{
 .c2{
     color:#067adf;
     padding-top: 50px;
-
 }
+
+.c2 .l1,.c2 .l2,.c2 .l3,.c2 .l4, .c2 .icon{
+    padding-left:2rem ;    
+}
+
 .l1{
     font-size: 2rem;
     padding-left: 30px;
@@ -162,7 +166,7 @@ a{
     }
 
     .c1{
-    box-shadow:1px 1px 5px 5px transparent;
+    box-shadow:1px 1px 5px 5px #067adf;
     }
 
     .c3{
@@ -178,6 +182,7 @@ a{
         left:0px;
         height: 20rem;
         width:20rem;
+        margin-top: 1rem;
     }
     
 }
@@ -186,6 +191,12 @@ a{
     .c1 .card
     {
         margin-left:10px;
+    }
+    .c2 span,.c2 p,.icon{
+        margin-left:2.5rem ;
+    }
+    .c1{
+        box-shadow:1px 1px 5px 5px #067adf;
     }
 
 
